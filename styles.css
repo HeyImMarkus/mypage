@@ -1,4 +1,36 @@
 /* This is a CSS comment. Put your CSS styling below this line */
+
+.banner {
+  color: red;
+  font-size: 30px;
+  font-family: monospace;
+   }
+
+.container {
+  width: 250px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+ 
+  
+.cards {
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  }
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
 body
 {
   text-align: center;
