@@ -1,5 +1,8 @@
-/* This is a CSS comment. Put your CSS styling below this line */
+/* This is a CSS comment. Put your CSS styling below this line */*
 
+body{
+  text-align: center;
+}
 .banner {
   color: red;
   font-size: 30px;
@@ -11,6 +14,18 @@
   border-color: black;
   border-width: 5px;
   border-style: solid;
+  text-align: center;
+}
+
+.big-container {
+  width: 250px;
+  border-color: white;
+  border-width: 5px;
+  padding: 50px;
+  border-style: solid;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
  
   
@@ -45,7 +60,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   body{
     font-size: 20px;
     color: lightslategray;
@@ -53,7 +68,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
   body{
     font-size: 15px;
     color: grey;
