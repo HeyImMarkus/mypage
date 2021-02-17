@@ -1,0 +1,20 @@
+/* This is a CSS comment. Put your CSS styling below this line */
+body
+{
+  text-align: center;
+}
+
+header
+{
+  font-size: large;
+}
+
+main
+{
+  font-size: medium;
+}
+
+footer
+{
+  font-size: small;
+}
